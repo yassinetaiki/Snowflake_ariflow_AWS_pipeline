@@ -1,0 +1,67 @@
+Bien sûr, voici quelques informations sur les paramètres à définir lors de la création 
+d'un data warehouse sur Snowflake :
+
+Nom du data warehouse : donnez un nom significatif à votre data warehouse.
+
+Taille du data warehouse : choisissez la taille de votre data warehouse en fonction de vos besoins 
+en termes de stockage et de performances. Snowflake propose des tailles de data warehouse
+ allant de XS à 4XL.
+
+Type de cluster : choisissez le type de cluster qui convient le mieux à vos besoins en matière 
+de performance. Les types de cluster proposés par Snowflake sont :
+
+Compute Optimized : pour les charges de travail exigeantes en calcul, telles que le traitement de 
+données massives et l'analyse de données en temps réel.
+Memory Optimized : pour les charges de travail exigeantes en mémoire, telles que le traitement de 
+données en mémoire et l'analyse de données en temps réel.
+Storage Optimized : pour les charges de travail exigeantes en stockage, telles que la sauvegarde,
+ l'archivage et la récupération de données.
+Nombre de clusters : choisissez le nombre de clusters que vous souhaitez pour votre data warehouse
+ en fonction de vos besoins en termes de performance et de tolérance aux pannes.
+
+Politique de mise en pause automatique : configurez une politique de mise en pause automatique
+ pour votre data warehouse afin d'économiser des coûts lorsque le data warehouse n'est pas utilisé.
+
+Politique de reprise automatique : configurez une politique de reprise automatique pour votre data 
+warehouse afin de garantir que votre data warehouse est disponible lorsque vous en avez besoin.
+
+Politique de consommation de crédits : configurez une politique de consommation de crédits pour 
+votre data warehouse afin de limiter les coûts et d'optimiser l'utilisation de votre data warehouse.
+
+Mots de passe de connexion : configurez des mots de passe de connexion pour les utilisateurs de 
+µvotre data warehouse afin de garantir la sécurité de vos données.
+
+Ces paramètres sont les plus couramment utilisés pour configurer un data warehouse sur Snowflake.
+ En fonction de vos besoins, vous pouvez également définir des paramètres supplémentaires tels 
+que la configuration du réseau, la politique de rétention des sauvegardes, etc.
+
+voici des informations plus détaillées sur les paramètres que vous avez demandés :
+
+Auto Resume : Ce paramètre permet de configurer la reprise automatique de votre data warehouse 
+après une interruption ou une mise en pause automatique. Si cette option est activée, votre data
+ warehouse sera automatiquement relancé lorsque l'activité reprend. Cela garantit que votre data 
+warehouse est toujours disponible lorsque vous en avez besoin.
+
+Auto Suspend : Ce paramètre permet de configurer la mise en pause automatique de votre data 
+warehouse lorsque celui-ci n'est pas utilisé pendant une période de temps spécifiée. Cette 
+fonctionnalité permet d'économiser des coûts en réduisant la consommation de ressources lorsque 
+le data warehouse n'est pas utilisé.
+
+Suspend After (min) : Ce paramètre spécifie le nombre de minutes pendant lesquelles le data 
+warehouse doit être inactif avant d'être automatiquement mis en pause. Par exemple, si vous 
+configurez cette option à 10 minutes, votre data warehouse sera mis en pause après 10 minutes 
+d'inactivité.
+
+Warehouse Type : Ce paramètre permet de choisir le type de data warehouse que vous souhaitez 
+créer en fonction de vos besoins en matière de stockage et de performance. Les types de data 
+warehouse proposés par Snowflake sont :
+
+Standard : pour les charges de travail de base et les volumes de données modérés
+Compute Optimized : pour les charges de travail exigeantes en calcul, telles que le traitement 
+de données massives et l'analyse de données en temps réel.
+Memory Optimized : pour les charges de travail exigeantes en mémoire, telles que le traitement 
+de données en mémoire et l'analyse de données en temps réel.
+Storage Optimized : pour les charges de travail exigeantes en stockage, telles que la sauvegarde,
+ l'archivage et la récupération de données.
+Ces options avancées permettent de personnaliser davantage votre configuration de data warehouse 
+sur Snowflake et de mieux adapter les performances et les coûts à vos besoins spécifiques.
